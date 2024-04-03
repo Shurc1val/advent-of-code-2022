@@ -18,6 +18,6 @@ func part_two(input_string string) int64 {
 
 func main() {
 	puzzle_input, _ := os.ReadFile("puzzle_input.txt")
-	fmt.Println(part_one(string(puzzle_input)))
-	fmt.Println(part_two(string(puzzle_input)))
+	fmt.Println("Part one:", part_one(string(puzzle_input)))
+	fmt.Println("Part two:", part_two(string(puzzle_input)))
 }
