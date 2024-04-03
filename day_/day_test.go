@@ -12,7 +12,7 @@ func TestPartOne(t *testing.T) {
 	}
 }
 
-
+/*
 func TestPartTwo(t *testing.T) {
 	input_string := ``
 	var expected_output int64 = 0
@@ -22,3 +22,4 @@ func TestPartTwo(t *testing.T) {
 		t.Fatalf("Incorrect")
 	}
 }
+*/
