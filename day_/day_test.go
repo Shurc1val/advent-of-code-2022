@@ -3,12 +3,12 @@ package main
 import "testing"
 
 func TestPartOne(t *testing.T) {
-	input_string := ``
-	var expected_output int64 = 0
+	inputString := ``
+	var expectedOutput int64 = 0
 
-	output := part_one(input_string)
-	if output != expected_output {
-		t.Log("Expected output", expected_output)
+	output := partOne(inputString)
+	if output != expectedOutput {
+		t.Log("Expected output", expectedOutput)
 		t.Log("Actual output", output)
 		t.Fatalf("Incorrect")
 	}
@@ -16,12 +16,12 @@ func TestPartOne(t *testing.T) {
 
 /*
 func TestPartTwo(t *testing.T) {
-	input_string := ``
-	var expected_output int64 = 0
+	inputString := ``
+	var expectedOutput int64 = 0
 	
-	output := part_two(input_string)
-	if output != expected_output {
-		t.Log("Expected output", expected_output)
+	output := partTwo(inputString)
+	if output != expectedOutput {
+		t.Log("Expected output", expectedOutput)
 		t.Log("Actual output", output)
 		t.Fatalf("Incorrect")
 	}

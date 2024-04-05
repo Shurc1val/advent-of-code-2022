@@ -6,18 +6,18 @@ import (
 )
 
 
-func part_one(input_string string) int64 {
+func partOne(inputString string) int64 {
 	return 0
 }
 
 
-func part_two(input_string string) int64 {
+func partTwo(inputString string) int64 {
 	return 0
 }
 
 
 func main() {
-	puzzle_input, _ := os.ReadFile("puzzle_input.txt")
-	fmt.Println("Part one:", part_one(string(puzzle_input)))
-	fmt.Println("Part two:", part_two(string(puzzle_input)))
+	puzzleInput, _ := os.ReadFile("puzzle_input.txt")
+	fmt.Println("Part one:", partOne(string(puzzleInput)))
+	fmt.Println("Part two:", partTwo(string(puzzleInput)))
 }
